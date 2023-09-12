@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-09-03 22:20:25 by Eclipse SUMO netconvert Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="osm.net.xml.gz"/>
+    </input>
+
+    <output>
+        <plain-output-prefix value="cardiff"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="1"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<edges version="1.16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <location netOffset="-488080.25,-5703222.73" convBoundary="20.91,116.39,424.15,527.12" origBoundary="-3.171682,51.480037,-3.161588,51.489004" projParameter="+proj=utm +zone=30 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+
+    <edge id="1" from="289662869" to="1233811721" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="26.98,358.17 36.35,352.21 47.36,348.39 60.20,346.13 75.22,344.62 89.27,343.96 102.22,344.64 118.60,346.80 133.65,350.55 148.86,355.70 166.22,363.87 193.06,379.83" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="26434507"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="26434507"/>
+        </lane>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="2" from="8766198964" to="8588421440" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="85.51,335.86 77.64,335.99 62.88,336.60 56.60,337.21 50.19,338.19 42.30,339.64 33.19,341.93 20.91,345.71" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="227852832"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="227852832"/>
+        </lane>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="24299008#0" from="263224959" to="8048166057" name="Fitzalan Road" priority="1" type="highway.cycleway" numLanes="1" speed="5.56" spreadType="center" width="2.00" allow="bicycle">
+        <lane index="0">
+            <param key="origId" value="24299008"/>
+        </lane>
+    </edge>
+    <edge id="26434967#2" from="cluster_263225125_346197816" to="8568405057" name="Fitzalan Place" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="330.46,190.69 326.84,202.38 324.84,209.26 318.50,230.70 308.27,260.52 305.22,268.31 299.91,280.31 275.21,334.04" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="26434967"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="26434967"/>
+        </lane>
+        <param key="origFrom" value="346197816"/>
+        <param key="ref" value="A4160"/>
+    </edge>
+    <edge id="26434967#3" from="8568405057" to="1039923168" name="Fitzalan Place" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="275.21,334.04 253.06,383.24 252.22,385.10 250.29,389.37" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="26434967"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="26434967"/>
+        </lane>
+        <param key="ref" value="A4160"/>
+    </edge>
+    <edge id="26434967#5" from="1039923168" to="cluster_289662957_289666026_289667364_289667600_#6more" name="Fitzalan Place" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="250.29,389.37 245.35,400.68 243.85,403.95" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="26434967"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="26434967"/>
+        </lane>
+        <param key="origTo" value="289667364"/>
+        <param key="ref" value="A4160"/>
+    </edge>
+    <edge id="26435006#0" from="8978191964" to="263224959" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="193.48,371.22 181.94,363.73 156.90,349.53" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="26435006"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="26435006"/>
+        </lane>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="26435006#1" from="263224959" to="8766198949" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="26435006"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="26435006"/>
+        </lane>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="26435012#0" from="cluster_289662957_289666026_289667364_289667600_#6more" to="1039922666" name="Fitzalan Place" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="250.41,408.47 252.18,405.26 259.68,390.53 260.95,387.79" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="26435012"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="26435012"/>
+        </lane>
+        <param key="origFrom" value="289662957"/>
+        <param key="ref" value="A4160"/>
+    </edge>
+    <edge id="26435012#1" from="1039922666" to="10309305376" name="Fitzalan Place" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="260.95,387.79 262.89,383.16 270.53,363.04 275.80,351.58 277.59,347.80" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="26435012"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="26435012"/>
+        </lane>
+        <param key="ref" value="A4160"/>
+    </edge>
+    <edge id="26435012#2" from="10309305376" to="259513926" name="Fitzalan Place" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="277.59,347.80 287.00,327.99 313.89,269.80" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="26435012"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="26435012"/>
+        </lane>
+        <param key="ref" value="A4160"/>
+    </edge>
+    <edge id="26435012#3" from="259513926" to="cluster_263225125_346197816" name="Fitzalan Place" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="313.89,269.80 316.99,261.99 321.31,250.00 325.70,237.44 330.46,223.30 335.46,207.45 339.88,193.65" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="26435012"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="26435012"/>
+        </lane>
+        <param key="origTo" value="263225125"/>
+        <param key="ref" value="A4160"/>
+    </edge>
+    <edge id="3" from="289666303" to="cluster_263225125_346197816" name="Fitzalan Place" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="361.11,116.39 353.88,132.17 352.18,136.15 350.80,139.38 335.42,175.50 334.04,179.70 330.46,190.69" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="26434967"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="26434967"/>
+        </lane>
+        <param key="origTo" value="346197816"/>
+        <param key="ref" value="A4160"/>
+    </edge>
+    <edge id="396403803#0" from="1233811721" to="8978201630" name="Newport Road" priority="12" type="highway.primary" numLanes="3" speed="13.41" shape="193.06,379.83 199.16,386.82 223.14,403.18 224.69,404.33 227.68,406.55" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="396403803"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="396403803"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="396403803"/>
+        </lane>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="396403803#3" from="8978201630" to="cluster_289662957_289666026_289667364_289667600_#6more" name="Newport Road" priority="12" type="highway.primary" numLanes="3" speed="13.41" shape="227.68,406.55 239.18,415.02" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="396403803"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="396403803"/>
+        </lane>
+        <lane index="2">
+            <param key="origId" value="396403803"/>
+        </lane>
+        <param key="origTo" value="289667600"/>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="4" from="cluster_263225125_346197816" to="8568404907" name="Fitzalan Place" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="339.88,193.65 345.07,179.28 345.71,177.47 352.81,157.21 353.59,155.01 361.89,138.13 363.52,134.82 368.86,125.13" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="26435012"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="26435012"/>
+        </lane>
+        <param key="origFrom" value="263225125"/>
+        <param key="ref" value="A4160"/>
+    </edge>
+    <edge id="5" from="cluster_8377274074_8377307237" to="8978103279" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="422.79,516.42 415.32,512.24 375.95,489.84 370.94,486.94" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="970418589 396403802"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="970418589 396403802"/>
+        </lane>
+        <param key="origFrom" value="8377274074"/>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="6" from="cluster_263223913_8929497787_8978103297" to="3992085596" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="350.22,488.82 364.54,496.88 396.65,514.23 401.28,516.85 419.67,527.12" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="970196361 22662686"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="970196361 22662686"/>
+        </lane>
+        <param key="origFrom" value="263223913"/>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="970196358#1" from="1039922666" to="1039923168" priority="1" type="highway.footway" numLanes="1" speed="2.78" shape="260.95,387.79 258.25,386.85 256.69,386.36 254.58,391.02 253.10,390.49 250.29,389.37" spreadType="center" width="2.00" allow="pedestrian">
+        <lane index="0">
+            <param key="origId" value="970196358 970196357 970196356"/>
+        </lane>
+    </edge>
+    <edge id="970196359#0" from="cluster_289662957_289666026_289667364_289667600_#6more" to="8978103313" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="244.16,419.19 259.98,429.55" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="970196359"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="970196359"/>
+        </lane>
+        <param key="origFrom" value="33351334"/>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="970196359#1" from="8978103313" to="8568501760" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="970196359"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="970196359"/>
+        </lane>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="970196360" from="8568501760" to="8568501758" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="264.81,432.71 286.65,447.30 321.99,471.16" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0" shape="265.23,434.63 286.46,448.59 320.48,471.29">
+            <param key="origId" value="970196360"/>
+        </lane>
+        <lane index="1" shape="266.95,432.03 288.46,446.28 322.20,469.23">
+            <param key="origId" value="970196360"/>
+        </lane>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="970196361#0" from="8568501758" to="3992117804" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="321.99,471.16 326.58,474.21 334.81,479.52 337.89,481.67" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="970196361"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="970196361"/>
+        </lane>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="970196361#2" from="3992117804" to="cluster_263223913_8929497787_8978103297" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="337.89,481.67 350.22,488.82" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="970196361"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="970196361"/>
+        </lane>
+        <param key="origTo" value="263223913"/>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="970197668#2" from="cluster_8568524462_8568524464_8978103310" to="8978191961" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="308.74,449.11 305.45,446.65 293.48,438.18" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0" shape="309.92,447.52 306.99,445.45 294.64,437.20">
+            <param key="origId" value="970197668"/>
+        </lane>
+        <lane index="1" shape="308.02,450.07 304.71,447.77 300.46,444.83 293.01,439.63">
+            <param key="origId" value="970197668"/>
+        </lane>
+        <param key="origFrom" value="8978103310"/>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="970197669#0" from="8978103279" to="289668211" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="370.94,486.94 361.25,481.48 357.85,479.76" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="970197669"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="970197669"/>
+        </lane>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="970197670#0" from="8978191961" to="cluster_289662957_289666026_289667364_289667600_#6more" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="293.48,438.18 269.84,420.57" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="970197670"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="970197670"/>
+        </lane>
+        <param key="origTo" value="8568524470"/>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="970197671#0" from="cluster_289662957_289666026_289667364_289667600_#6more" to="8978201635" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="243.85,403.95 229.22,394.46" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="970197671"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="970197671"/>
+        </lane>
+        <param key="origFrom" value="289667364"/>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="970197671#1" from="8978201635" to="8978191962" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="970197671"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="970197671"/>
+        </lane>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="970197672" from="8978191962" to="8978191964" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="970197672"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="970197672"/>
+        </lane>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="970197673" from="1033695383" to="8766198964" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="119.08,338.38 112.39,337.42 98.71,336.16 85.51,335.86" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="970197673"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="970197673"/>
+        </lane>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="970197674" from="8766198949" to="1233811756" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="970197674"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="970197674"/>
+        </lane>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="970197675" from="1233811756" to="1033695383" name="Newport Road" priority="12" type="highway.primary" numLanes="2" speed="13.41" shape="136.39,342.47 130.01,340.81 119.08,338.38" spreadType="center" disallow="tram rail_urban rail rail_electric rail_fast ship">
+        <lane index="0">
+            <param key="origId" value="970197675"/>
+        </lane>
+        <lane index="1">
+            <param key="origId" value="970197675"/>
+        </lane>
+        <param key="ref" value="A4161"/>
+    </edge>
+    <edge id="E0" from="289668211" to="cluster_8568524462_8568524464_8978103310" priority="-1" numLanes="2" speed="13.89">
+        <lane index="0" shape="340.94,470.25 315.70,452.81"/>
+        <lane index="1" shape="335.08,463.11 334.83,462.94 317.08,450.56"/>
+    </edge>
+</edges>

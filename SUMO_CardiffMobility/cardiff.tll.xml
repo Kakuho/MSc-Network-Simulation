@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-09-03 22:20:25 by Eclipse SUMO netconvert Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="osm.net.xml.gz"/>
+    </input>
+
+    <output>
+        <plain-output-prefix value="cardiff"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="1"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<tlLogics version="1.16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tllogic_file.xsd">
+    <tlLogic id="cluster_289662957_289666026_289667364_289667600_#6more" type="actuated" programID="0" offset="0">
+        <phase duration="38" state="rrrrGGGgGGgg" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrryyyyyygg"/>
+        <phase duration="6"  state="rrrrrrrrGGGG" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="rrrrrrrryyyy"/>
+        <phase duration="37" state="GGGgGrrrrrrr" minDur="5" maxDur="50"/>
+        <phase duration="3"  state="yyyyyrrrrrrr"/>
+    </tlLogic>
+
+    <connection from="26434967#5" to="970197671#0" fromLane="0" toLane="0" tl="cluster_289662957_289666026_289667364_289667600_#6more" linkIndex="0"/>
+    <connection from="26434967#5" to="970196359#0" fromLane="0" toLane="0" tl="cluster_289662957_289666026_289667364_289667600_#6more" linkIndex="1"/>
+    <connection from="26434967#5" to="970196359#0" fromLane="1" toLane="1" tl="cluster_289662957_289666026_289667364_289667600_#6more" linkIndex="2"/>
+    <connection from="26434967#5" to="26435012#0" fromLane="1" toLane="1" tl="cluster_289662957_289666026_289667364_289667600_#6more" linkIndex="3"/>
+    <connection from="396403803#3" to="970196359#0" fromLane="0" toLane="0" tl="cluster_289662957_289666026_289667364_289667600_#6more" linkIndex="8"/>
+    <connection from="396403803#3" to="970196359#0" fromLane="1" toLane="1" tl="cluster_289662957_289666026_289667364_289667600_#6more" linkIndex="9"/>
+    <connection from="396403803#3" to="26435012#0" fromLane="2" toLane="1" tl="cluster_289662957_289666026_289667364_289667600_#6more" linkIndex="10"/>
+    <connection from="396403803#3" to="970197671#0" fromLane="2" toLane="1" tl="cluster_289662957_289666026_289667364_289667600_#6more" linkIndex="11"/>
+    <connection from="970197670#0" to="26435012#0" fromLane="0" toLane="0" tl="cluster_289662957_289666026_289667364_289667600_#6more" linkIndex="4"/>
+    <connection from="970197670#0" to="970197671#0" fromLane="0" toLane="0" tl="cluster_289662957_289666026_289667364_289667600_#6more" linkIndex="5"/>
+    <connection from="970197670#0" to="970197671#0" fromLane="1" toLane="1" tl="cluster_289662957_289666026_289667364_289667600_#6more" linkIndex="6"/>
+    <connection from="970197670#0" to="970196359#0" fromLane="1" toLane="1" tl="cluster_289662957_289666026_289667364_289667600_#6more" linkIndex="7"/>
+</tlLogics>
